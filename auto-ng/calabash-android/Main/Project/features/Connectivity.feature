@@ -73,6 +73,7 @@ Feature: Connectivity
   Then I see the ok button disabled when the field left blank in networksecuritykey view
   Then I enter incorrect security key and tap ok
   Then I take a screenshot
+  # I'm into f4 branch
 
 @TC_CONN_WIFI_PERS_011 @CONNECTIVITY @WiFi_Personal @WifiPers11
   Scenario: I long press on a security based network and verify the options "Edit/clear Wi-Fi password"
