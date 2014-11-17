@@ -19,22 +19,26 @@ Feature: Activation
     Then I have to see "TXT_ACTIVATIONCODE_EMAIL"
     Then I take a screenshot
 
+
+
 @AUTO_TC_ACTV_PRFL_CODE_002 @ActivationCodes @TC02
   Scenario: After an Installation, I click Activation code and verify if "iPass Open Mobile" is shown on the UI
     Then I have to see "TXT_TITLE"
-	When I tap "LOC_SETTINGS"
+	  When I tap "LOC_SETTINGS"
     Then I have to see "TXT_SETTINGS_SETTINGS"
     When I tap "LOC_SETTINGS_SETTINGS"
     Then I have to see "TXT_OPTION_NETWORK_TITLE"
     Then I have to see "TXT_OPTION_NETWORK_MANUAL_LOGIN"
     Then I tap "LOC_OPTION_NETWORK_MANUAL_LOGIN"
     Then I wait for 5 seconds
+    Then I wait for 10 seconds
     Then I take a screenshot
 
 
 @Test
   Scenario: Test
     Then I connect to IPASSSOA
+
 
 
 
