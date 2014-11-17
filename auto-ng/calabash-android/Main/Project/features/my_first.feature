@@ -34,6 +34,8 @@ Feature: Activation
     Then I wait for 10 seconds
     Then I take a screenshot
 
+    # git master branch
+
 
 @Test
   Scenario: Test
