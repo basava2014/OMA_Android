@@ -1,0 +1,142 @@
+#OM ANDROID LOCATORS DATA
+
+#ACCEPT BUTTON
+LOC_ACCEPT: "* id:'button1'"
+
+#SETTIGS BUTTON
+LOC_SETTINGS: "* id:'settings_button'"
+
+#TITLE
+LOC_TITLE: "* id:'app_name'"
+
+#WELCOME SCREEN
+LOC_WELCOME_TITLE: "* id:'welcome_title'"
+LOC_WELCOME_MESSAGE: "* id:'welcome_text_message'"
+LOC_WELCOME_GETSTARTED: "* id:'btn_activateEmail'"
+LOC_WELCOME_ACTIVATIONCODE: "* id:'btn_activateCode'"
+LOC_WELCOME_PRIVACYPOLICY: "* id:'btn_privacyPolicy'"
+LOC_WELCOME_ACTIVATELATER: "* id:'btn_activate_later'"
+
+#ACTIVATION CODE UI
+
+LOC_ACTIVATIONCODE_ACTIVATEMESSAGE: "* id:'profile_id_actv_code_lbl'"
+LOC_ACTIVATIONCODE_VERIFYNOW: "* id:'btnVerifyNow'"
+LOC_ACTIVATIONCODE_MOREINFO: "* id:'message'"
+LOC_ACTIVATIONCODE_MOREERROR: "* id:'message'"
+LOC_ACTIVATIONCODE_MOREOK: "* id:'button1'"
+LOC_ACTIVATIONCODE_MORECONTINUE: "* id:'button1'"
+
+EDIT_PROIFLEID_ACTIVATION_CODE: "profileid_activationcode_edit"
+
+LOC_ACTIVATIONCODE_PROFILE: "* id:'layout_heading'"
+LOC_ACTIVATIONCODE_ACTIVATIONCODEMESSAGE: "* id:'client_message'"
+LOC_ACTIVATIONCODE_PROFILEID: "* id:'profile_lbl'"
+
+EDIT_PROFILEID: "profileid_edit"
+
+LOC_ACTIVATIONCODE_PIN: "* id:'pin_lbl'"
+EDIT_PIN: "pin_edit"
+
+LOC_ACTIVATIONCODE_EMAIL: "* id:'email_lbl'"
+EDIT_EMAIL: "email_edit"
+
+LOC_ACTIVATIONCODE_OK: "* id:'btnOk'"
+LOC_ACTIVATIONCODE_CANCEL: "* id:'btnCancel'"
+
+
+#SETTINGS  MENU BEFORE ACTIVATION
+LOC_SENDLOGS: "TextView index:0"
+LOC_TAKEATOUR: "TextView index:1"
+LOC_HELP: "TextView index:2"
+
+
+#SETTINGS MENU AFTER CLIENT ACTIVATION
+LOC_SETTINGS_ACCOUNTSETTINGS: "TextView index:0"
+LOC_SETTINGS_USAGESETTINGS: "TextView index:1"
+LOC_SETTINGS_SETTINGS: "TextView index:2"
+LOC_SETTINGS_ABOUT: "TextView index:3"
+LOC_SETTINGS_TAKEATOUR: "TextView index:4"
+LOC_SETTINGS_HELP: "TextView index:5"
+LOC_SETTINGS_DOWNLOADHOTSPOTLISTS: "TextView index:6"
+
+
+#DASHBOARD
+LOC_DASHBOARD_SIGNALSTRENGTH: "* id:'text_signal_strength'"
+LOC_DASHBOARD_ONLINE: "* id:'status'"
+LOC_DASHBOARD_TAP: "* id:'action'"
+LOC_DASHBOARD_USAGE: "* id:'data_usage'"
+LOC_DASHBOARD_SPEEDTEST: "* id:'button_speedTest'"
+LOC_DASHBOARD_CELL: "* id:'right_label'"
+LOC_DASHBOARD_WIFI: "* id:'left_label'"
+
+
+#SPEEDTEST
+LOC_SPEEDTEST_TITLE: "* id:'alertTitle'"
+LOC_SPEEDTEST_MESSAGE: "* id:'message'"
+LOC_SPEEDTEST_START: "* id:'button2'"
+LOC_SPEEDTEST_CANCEL: "* id:'button1'"
+LOC_SPEEDTEST_LATENCY: "* id:'text_latency'"
+LOC_SPEEDTEST_PACKETLOSS: "* id:'text_packetloss'"
+LOC_SPEEDTEST_DOWNLOAD: "* id:'text_download'"
+LOC_SPEEDTEST_UPLOAD: "* id:'text_upload'"
+LOC_SPEEDTEST_RESTARTSPEEDTEST: "* id:'button_speedTest'"
+
+
+#ACCOUNT SETTINGS
+LOC_OPTION_ACCOUNTSETTINGS_TITLE: "* id:'lblLogin_hdr'"
+
+
+LOC_OPTION_ACCOUNTSETTINGS_PREFIX: "* id:'lblPrefix'"
+EDIT_PREFIX: "EditPrefix"
+
+LOC_OPTION_ACCOUNTSETTINGS_USERNAME: "* id:'lblusername'"
+EDIT_USERNAME: "EditTextID"
+
+LOC_OPTION_ACCOUNTSETTINGS_PASSWORD: "* id:'lblPassword'"
+EDIT_PASSWORD: "EditTextPass"
+
+LOC_OPTION_ACCOUNTSETTINGS_DOMAIN: "* id:'lblDomain'"
+EDIT_DOMAIN: "EditTextDomain"
+
+LOC_OPTION_ACCOUNTSETTINGS_AUTOCONNECT: "* id:'cb_auto_connect'"
+LOC_OPTION_ACCOUNTSETTINGS_SAVE: "* id:'btnSave'"
+LOC_OPTION_ACCOUNTSETTINGS_CANCEL: "* id:'btnCancel'"
+
+
+#SETTINGS SETTINGS
+
+LOC_OPTION_NETWORK_TITLE: "TextView index:0"
+LOC_OPTION_NETWORK_NOTIFICATIONS: "TextView index:1"
+LOC_OPTION_NETWORK_NOTIFICATIONSSUMMARY: "TextView index:2"
+LOC_OPTION_NETWORK_MANUALLOGIN: "TextView index:3"
+LOC_OPTION_NETWORK_MANUALLOGINSUMMARY: "TextView index:4"
+
+
+#SETTINGS ABOUT
+
+LOC_OPTION_ABOUT_TITLE: "* id:'welcome_title'"
+LOC_OPTION_ABOUT_VERISON: "* id:'AboutActivity.appversion'"
+LOC_OPTION_ABOUT_PROFILE: "* id:'AboutActivity.proifle_ID'"
+LOC_OPTION_ABOUT_UPDATENETWORKS: "* id:'update_btn'"
+LOC_OPTION_ABOUT_SENDLOGS: "* id:'seng_logsbtn'"
+LOC_OPTION_ABOUT_REPLACEPROFILE: "* id:'btn_replace_profile'"
+LOC_OPTION_ABOUT_MOREINFO: "* id:'more_info_btn'"
+LOC_OPTION_ABOUT_LEGALINFORMATION: "* id:'btn_legal_information'"
+
+
+#SETTINGS DOWNLOAD HOTSPOT LISTS
+
+LOC_OPTION_DOWNLOADHOTSPOTLISTS_TITLE: "* id:'hotspot_title_id'"
+LOC_OPTION_DOWNLOADHOTSPOTLISTS_WARNING: "* id:'download_warning'"
+LOC_OPTION_DOWNLOADHOTSPOTLISTS_DOWNLOAD: "* id:'statusBtn'"
+LOC_OPTION_DOWNLOADHOTSPOTLISTS_DELETE: "* id:'deleteBtn'"
+
+
+#NETWORKS SECTION
+
+LOC_NETWORKSECTION_CONNECTEDTO: "* id:'connstatus'"
+LOC_NETWORKSECTION_SINCE: "* id:'connected_since'"
+LOC_NETWORKSECTION_WIFIISOFF: "* id:'connstatus'"
+LOC_NETWORKSECTION_WIFI: ""
+LOC_NETWORKSECTION_WIFISTATEON: "* id:'wifi_state'"
+LOC_NETWORKSECTION_WIFISTATEOFF: "* id:'wifi_state'"

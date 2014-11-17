@@ -1,0 +1,4 @@
+reinstall_apps
+start_test_server_in_background
+query("*")
+exit

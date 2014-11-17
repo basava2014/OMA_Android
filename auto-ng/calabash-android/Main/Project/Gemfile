@@ -1,0 +1,8 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+# List of all gems required in our project
+gem "roo"
+gem "parseconfig"
+gem "sqlite3"
+gem "nokogiri"
