@@ -34,6 +34,7 @@ Feature: Connectivity
 
 ###########################################
 #TC-04,TC-17 covers here
+# Does TC-18 to TC-22  also covered ????
 ###########################################  
 
  @TC_CONN_WIFI_PERS_004 @CONNECTIVITY @WiFi_Personal @WifiPers04
