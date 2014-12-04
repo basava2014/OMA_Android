@@ -43,6 +43,7 @@ Feature: GUI
 
   ###########################################
   #Settings: DataUsage Settings
+  # Settings : Data Usage Seetings for WiFi only
   ###########################################
   @AUTO_TC_0GUI_STGS_USTG_001 @USAGESETTINGS @TS_0GUI_DTUS_01 @reinstall
   Scenario:I validate the usage settings at first launch of OMC
