@@ -4,6 +4,11 @@ Feature: Connectivity
 #Connectivity:WiFi_Personal
 ############################################################
 
+############################################################
+#Connectivity:WiFi_GIS
+############################################################
+
+
 @TC_CONN_WIFI_PERS_003 @CONNECTIVITY @WiFi_Personal @WifiPers03 @reinstall
   Scenario: I initiate a connection to BL network and verify the cancel button behavior
   
