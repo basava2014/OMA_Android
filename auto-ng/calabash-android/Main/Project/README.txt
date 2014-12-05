@@ -62,5 +62,6 @@ If calabash-android resign/build commands doesn't work, then the setup isn't cor
 Cheers.
 
 #############LEARNING SOURCETREE#################
+############## LINE 2 MERGE CONFLICT##########
 
 ####### ON DEV BRANCH ONLY NOW ############
